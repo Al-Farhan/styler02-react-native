@@ -30,14 +30,38 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         paddingHorizontal: 10
     },
-    card: {},
-    cardElevated: {},
+    card: {
+      width: 350,
+      height: 360,
+      borderRadius: 6,
+      marginVertical: 12,
+      marginHorizontal: 16
+    },
+    cardElevated: {
+      backgroundColor: '#FFFFFF',
+      elevation: 3,
+      shadowOffset: {
+        width: 1,
+        height: 1
+      }
+    },
     cardImage: {
-        height: 180
+        height: 180,
+        marginBottom: 8,
+        borderTopLeftRadius: 6,
+        borderTopRightRadius: 6
     },
     cardBody: {},
-    cardTitle: {},
-    cardLabel: {},
-    cardDescription: {},
-    cardFooter: {}
+    cardTitle: {
+      color: '#000000'
+    },
+    cardLabel: {
+      color: '#000000'
+    },
+    cardDescription: {
+      color: '#000000'
+    },
+    cardFooter: {
+      color: '#000000'
+    }
 })
